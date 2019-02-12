@@ -1,2 +1,4 @@
 # personalWebsiteCode
-Personal website from basic to more advanced as time goes on
+Started on 2/12/2019
+
+
