@@ -1,0 +1,55 @@
+<!-- Personal Website Starting with a basic layout using css on top and only designing for my current screen-->
+<!DOCTYPE html>
+<style>
+    body{background-color: #4d045f;}
+    #topHeader {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+    .linksHeaer{
+        font-size: 20px;
+        color: white;
+    }
+    .smallAbout{
+        color: white;
+        margin-top: 15%;
+        margin-left: 20%;
+        overflow-wrap:break-word;
+        width: 250px;
+    }
+    #Home{padding-left: 35%; float: left;}
+    #About{padding-left : 5%; float: left;}
+    #Portfolio{padding-left: 5%; float: left;}
+    #Lists{padding-left: 5%; float: left;}
+    #img1{position:relative; left:200%; top: -320px;}
+</style>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Testing the header</title>
+</head>
+<body>
+    <h1 id="topHeader">Info goes here</h1>
+    <div class="linksHeaer"> <!-- The website will have 4 webpages the Home, About, Portfolio, and Lists-->
+        <p id="Home">Home</p>
+        <p id="About">About</p>
+        <p id="Portfolio">Portfolio</p>
+        <p id="Lists">Lists</p>
+    </div>
+    <div class="smallAbout">
+        <p id="pText1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nam felis arcu, volutpat quis urna quis, ultrices vulputate ligula. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nulla consequat tellus id malesuada sollicitudin. 
+        Nullam felis purus, vestibulum feugiat leo in, rutrum maximus quam. Ut in metus ex.
+        Vestibulum sed arcu sem. Quisque egestas lorem sodales urna aliquam, ut congue nisl pharetra. 
+        Quisque non elit tincidunt, tincidunt eros aliquet, eleifend ex. 
+        Etiam sodales quam eget lacus venenatis eleifend. 
+        Praesent a eros in mauris sodales placerat in vel nulla. 
+        Maecenas ut finibus dolor. </p>
+        <p id="img1">Inserting Image here later</p>
+    </div>
+    
+</body>
+</html>
