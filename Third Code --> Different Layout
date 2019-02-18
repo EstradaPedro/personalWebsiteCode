@@ -1,0 +1,96 @@
+<!-- Personal Website Starting with a basic layout using css on top and only designing for my current screen-->
+<!DOCTYPE html>
+<style>
+    body{background-color: white}
+    #topHeader {
+        width: 300px;
+        margin-left: 40%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        background-color:black;
+        border: 1px solid white;
+        border-radius: 15px;
+
+    }
+    .linksHeader{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        border: 1px solid white;
+        background-color:black;
+        border-radius: 15px;
+        width: 500px;
+        margin-left:30%;
+        text-align: center;
+    }
+    #Home {display:inline;padding-left: 5%;}
+
+    #About {display:inline;padding-left: 5%;}
+
+    #Portfolio {display:inline;padding-left: 5%;}
+
+    #Lists {display:inline;padding-left: 5%;}
+    .smallAbout {
+        border: 1px solid white;
+        display:flex;
+        justify-content: center;
+        background-color: #d75703;
+        margin-top: 6%;
+        margin-left: 23%;
+        width: 50%;
+        border-radius: 15px;
+    }
+    #pText1 {
+        color: white;
+        margin-top: 5%;
+        margin-left: 4%;
+        overflow-wrap: break-word;
+        width: 250px;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    #img1 {
+        color: white;
+        flex-direction: column;
+        margin-top:15%;
+        margin-left:15%;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Testing the header</title>
+</head>
+<body>
+    <h1 id="topHeader">Info goes here</h1>
+    <div class="linksHeader"> <!-- The website will have 4 webpages the Home, About, Portfolio, and Lists-->
+        <p id="Home">Home</p>
+        <p id="About">About</p>
+        <p id="Portfolio">Portfolio</p>
+        <p id="Lists">Lists</p>
+    </div>
+    <div class="linksHeader2"></div>
+    <div class="smallAbout">
+        <p id="pText1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nam felis arcu, volutpat quis urna quis, ultrices vulputate ligula. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nulla consequat tellus id malesuada sollicitudin. 
+        Nullam felis purus, vestibulum feugiat leo in, rutrum maximus quam. Ut in metus ex.
+        Vestibulum sed arcu sem. Quisque egestas lorem sodales urna aliquam, ut congue nisl pharetra. 
+        Quisque non elit tincidunt, tincidunt eros aliquet, eleifend ex. 
+        Etiam sodales quam eget lacus venenatis eleifend. 
+        Praesent a eros in mauris sodales placerat in vel nulla. 
+        Maecenas ut finibus dolor. </p>
+        <img src="https://i.imgur.com/Kxj7xXA.jpg" alt="Picture of Dogs" id="img1" />
+    </div>
+    
+</body>
+</html>
